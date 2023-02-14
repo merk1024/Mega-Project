@@ -21,7 +21,7 @@ function sign_in(props) {
             </div>
             <div className='password'>
                 <h4>Пароль</h4>
-                <input type="text" placeholder='Введите пароль'/>
+                <input type="password" placeholder='Введите пароль'/>
             </div>
             <button className='Sign_in'>Войти</button>
             <div className='forget'>
