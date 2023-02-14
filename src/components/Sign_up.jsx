@@ -27,11 +27,11 @@ function Sign_up(props) {
             </div>
             <div className='new_password'>
                 <h4>Создать пароль</h4>
-                <input type="text" placeholder='Введите пароль'/>
+                <input type="password" placeholder='Введите пароль'/>
             </div>
             <div className='password'>
                 <h4>Подтвердить пароль</h4>
-                <input type="text" placeholder='Введите пароль'/>
+                <input type="password" placeholder='Введите пароль еще раз'/>
             </div>
             <button className='Sign_in'>Зарегистрироваться</button>
             <div className='forget'>
